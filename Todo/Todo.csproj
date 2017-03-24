@@ -73,6 +73,7 @@
     <Compile Include="Views\RateAppPage.xaml.cs">
       <DependentUpon>RateAppPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ApplicationSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SQLitePCLRaw.core">
@@ -133,6 +134,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="appSettings.json" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
