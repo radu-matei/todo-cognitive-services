@@ -4,6 +4,9 @@
 	{
 		private static ApplicationSettings _applicationSettings = new ApplicationSettings();
 
+		public static string MobileCenterIOsKey => _applicationSettings.GetSetting("MobileCenterIOsKey");
+		public static string MobileCenterAndroidKey => _applicationSettings.GetSetting("MobileCenterAndroidKey");
+
 		public static string AuthenticationTokenEndpoint => _applicationSettings.GetSetting("AuthenticationTokenEndpoint");
 
 		public static string BingSpeechApiKey => _applicationSettings.GetSetting("BingSpeechApiKey");
