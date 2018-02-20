@@ -7,7 +7,7 @@ In order to build the application, you need to add a JSON file called `appSettin
 
 ```
 {
-	"AuthenticationTokenEndpoint": "https://api.cognitive.microsoft.com/sts/v1.0",
+    "AuthenticationTokenEndpoint": "https://api.cognitive.microsoft.com/sts/v1.0",
     "BingSpeechApiKey": "<INSERT_API_KEY_HERE>",
     "SpeechRecognitionEndpoint": "https://speech.platform.bing.com/recognize",
     "AudioContentType": "audio\/wav; codec=\"\"audio\/pcm\"\"; samplerate=16000",
